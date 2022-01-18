@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Hello Cloud Run with Github integration!"
+    return "Hello from a Github pull request!!!!!!"
 
 
 if __name__ == "__main__":
