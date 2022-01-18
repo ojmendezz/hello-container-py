@@ -5,6 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
+    #The text must be exact to match the validator
     return "Hello from a Github pull request!!!!!!"
 
 
